@@ -1,9 +1,8 @@
 theme: jekyll-theme-leap-day
 markdown: kramdown
-collections:
-  dictionary:
-    elektronicky-podpis:
-      term: elektronický podpis
-      def: |
-        Lorem Ipsum 
-        Dolor Sit Amet
+dictionary:
+  elektronicky-podpis:
+    term: elektronický podpis
+    def: |
+      Lorem Ipsum 
+      Dolor Sit Amet
