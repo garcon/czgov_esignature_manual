@@ -1,4 +1,4 @@
-theme: jekyll-theme-leap-day
+theme: artzenevich/alpha-theme-jekyll
 markdown: kramdown
 dictionary:
   elektronicky-podpis:
