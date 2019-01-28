@@ -1,6 +1,7 @@
 ---
 title: Právní rámec služeb vytvářejících důvěru
 short: Právní rámec
+permalink: /pravni-ramec
 layout: page
 ---
 
