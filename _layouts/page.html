@@ -27,13 +27,13 @@ layout: default
 											{% if index.url == '/' %}
 											{% assign toc = index.toc %}
 											<div class="guide__back-step">
-												<a href="/" class="guide__link-back">{{ toc.title }}</a>
+												<a href="{{ site.baseurl }}/" class="guide__link-back">{{ toc.title }}</a>
 											</div>
 											<ul class="nav nav--vertical">
 											{% for item in toc.items %}
 												{% assign links = site.pages | where: 'url', item %}
 												{% for link in links %}
-												<li class="nav__item"><a href="{{ link.url }}" class="nav__link {% if page.url == item %}active{% endif %}">{{ link.short }}</a></li>
+												<li class="nav__item"><a href="{{ site.baseurl }}{{ link.url }}" class="nav__link {% if page.url == item %}active{% endif %}">{{ link.short }}</a></li>
 												{% endfor %}
 											{% endfor %}
 											</ul>
@@ -48,7 +48,7 @@ layout: default
 											<div class="col-12 hidden-tablet">
 												<nav class="breadcrumbs mb-2" aria-label="breadcrumb">
 													<ol class="breadcrumb">
-														<li class="breadcrumb__item"><a href="/" class="breadcrumb__link">Úvod</a></li>
+														<li class="breadcrumb__item"><a href="{{ site.baseurl }}/" class="breadcrumb__link">Úvod</a></li>
 														<li class="breadcrumb__item breadcrumb__item--active" aria-current="page"><span class="breadcrumb__link">{{ page.short }}</span></li>
 													</ol>
 												</nav>
@@ -76,7 +76,7 @@ layout: default
 
 		</div>
 		<!-- JS -->
-		<script src={{"/assets/js/front.js" | relative_url }}></script>
+		<script src="{{ site.baseurl }}/assets/js/front.js"></script>
 	</body>
 </html>
 

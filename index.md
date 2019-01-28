@@ -4,8 +4,8 @@ title: Jak na elektronické podpisy
 toc: 
   title: Jak na <strong>elektronické podpisy</strong>
   items:
-    - pravni-ramec
-    - evropska-znacka-duvery
-    - elektronicky-podpis
-    - jak-funguje-podpis
+    - /pravni-ramec.html
+    - /evropska-znacka-duvery.html
+    - /elektronicky-podpis.html
+    - /jak-funguje-podpis.html
 ---

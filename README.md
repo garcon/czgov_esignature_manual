@@ -5,7 +5,7 @@
 
 ## Jak na tento web
 
-Tento web je psaný v textových dokumentech s formátováním [markdown](#markdown). Soubory ukládejte buď přímo do kořenového adresáře nebo vytvořte složky a podsloužky. Obrázky, multimedia a další případné soubory patří do složky [/assets](/assets) Webové stránky generuje [Jekyll](https://jekyllrb.com/) a hostované jsou jako [GitHub Pages](#welcome-to-github-pages). Šablony webu jsou postaveny na [Design systému GOV.cz](https://designsystem.gov.cz).
+Tento web je psaný v textových dokumentech s formátováním [markdown](#markdown). Soubory ukládejte buď přímo do kořenového adresáře nebo vytvořte složky a podsloužky. Obrázky, multimedia a další případné soubory patří do složky [/assets](/assets). Před publikováním zkontrolujte nastavení ```_config.yml``` (především proměnnou ```baseurl```) Webové stránky generuje [Jekyll](https://jekyllrb.com/) a hostované jsou jako [GitHub Pages](#welcome-to-github-pages). Šablony webu jsou postaveny na [Design systému GOV.cz](https://designsystem.gov.cz).
 
 Při poskytování zpětné vazby a přispívání ke zlepšení obsahu nebo zdrojového kódu se prosím řiďte [pravidly chování](/CODE_OF_CONDUCT.md).
 
