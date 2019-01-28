@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Experimenting with Czech Governemtn’s Design System and Jekyll Themes"
   spec.homepage      = "https://github.com/garcon/czgov_esignarture_manual"
-  spec.license       = "MIT"
+  spec.license       = "Unlicense"
 
   spec.metadata["plugin_type"] = "theme"
 
