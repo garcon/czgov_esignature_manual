@@ -9477,7 +9477,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled.active, fieldset
  */
 @font-face {
   font-family: 'pvs-icons';
-  src: url("./assets/fonts/icons/pvs-icons.ttf?v=3") format("truetype"), url("./assets/fonts/icons/pvs-icons.woff?v=3") format("woff"), url("./assets/fonts/icons/pvs-icons.svg?v=3#icon") format("svg");
+  src: url("../fonts/icons/pvs-icons.ttf?v=3") format("truetype"), url("../fonts/icons/pvs-icons.woff?v=3") format("woff"), url("../fonts/icons/pvs-icons.svg?v=3#icon") format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -9658,31 +9658,31 @@ fieldset[disabled] .datepicker table tr td span.active.disabled.active, fieldset
  */
 @font-face {
   font-family: 'Roboto';
-  src: url("./assets/fonts/roboto/roboto-thin.woff?v=1") format("woff"), url("./assets/fonts/roboto/roboto-thin.ttf?v=1") format("truetype");
+  src: url("../fonts/roboto/roboto-thin.woff?v=1") format("woff"), url("../fonts/roboto/roboto-thin.ttf?v=1") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: 'Roboto';
-  src: url("./assets/fonts/roboto/roboto-light.woff?v=1") format("woff"), url("./assets/fonts/roboto/roboto-light.ttf?v=1") format("truetype");
+  src: url("../fonts/roboto/roboto-light.woff?v=1") format("woff"), url("../fonts/roboto/roboto-light.ttf?v=1") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'Roboto';
-  src: url("./assets/fonts/roboto/roboto-regular.woff?v=1") format("woff"), url("./assets/fonts/roboto/roboto-regular.ttf?v=1") format("truetype");
+  src: url("../fonts/roboto/roboto-regular.woff?v=1") format("woff"), url("../fonts/roboto/roboto-regular.ttf?v=1") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Roboto';
-  src: url("./assets/fonts/roboto/roboto-medium.woff?v=1") format("woff"), url("./assets/fonts/roboto/roboto-medium.ttf?v=1") format("truetype");
+  src: url("../fonts/roboto/roboto-medium.woff?v=1") format("woff"), url("../fonts/roboto/roboto-medium.ttf?v=1") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'Roboto';
-  src: url("./assets/fonts/roboto/roboto-bold.woff?v=1") format("woff"), url("./assets/fonts/roboto/roboto-bold.ttf?v=1") format("truetype");
+  src: url("../fonts/roboto/roboto-bold.woff?v=1") format("woff"), url("../fonts/roboto/roboto-bold.ttf?v=1") format("truetype");
   font-weight: 800;
   font-style: normal;
 }
@@ -10398,7 +10398,7 @@ input::-ms-clear {
   width: 24px;
   height: 12px;
   margin-left: 12px;
-  background-image: url("./assets/images/layout/british-flag.svg?v=2");
+  background-image: url("../images/layout/british-flag.svg?v=2");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 24px auto;
@@ -10441,7 +10441,7 @@ input::-ms-clear {
   display: block;
   width: 40px;
   height: 50px;
-  background-image: url("./assets/images/layout/pvs-logo-mobile.svg?v=2");
+  background-image: url("../images/layout/pvs-logo-mobile.svg?v=2");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 40px auto;
@@ -10458,7 +10458,7 @@ input::-ms-clear {
 @media (min-width: 992px) {
   .header__logo, .header__logo:visited {
     width: 188px;
-    background-image: url("./assets/images/layout/pvs-logo.svg");
+    background-image: url("../images/layout/pvs-logo.svg");
     background-size: 188px auto;
   }
 }
@@ -10470,7 +10470,7 @@ input::-ms-clear {
 }
 .header__logo--lp, .header__logo--lp:visited {
   height: 25px;
-  background-image: url("./assets/images/layout/e-obcanka-logo.svg");
+  background-image: url("../images/layout/e-obcanka-logo.svg");
   background-size: 40px auto;
 }
 @media (min-width: 768px) {
@@ -10482,7 +10482,7 @@ input::-ms-clear {
 @media (min-width: 992px) {
   .header__logo--lp, .header__logo--lp:visited {
     width: 212px;
-    background-image: url("./assets/images/layout/e-obcanka.svg");
+    background-image: url("../images/layout/e-obcanka.svg");
     background-size: 212px auto;
   }
 }
@@ -10553,7 +10553,7 @@ input::-ms-clear {
 @media (min-width: 768px) {
   .header--hp {
     height: 352px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("./assets/images/layout/hp-header.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../images/layout/hp-header.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -10566,7 +10566,7 @@ input::-ms-clear {
 }
 @media (min-width: 1200px) {
   .header--hp {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("./assets/images/layout/hp-header-xl.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../images/layout/hp-header-xl.jpg");
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -10576,7 +10576,7 @@ input::-ms-clear {
     width: 168px;
     height: 86px;
     margin-top: 24px;
-    background-image: url("./assets/images/layout/pvs-logo.svg");
+    background-image: url("../images/layout/pvs-logo.svg");
     background-size: 168px auto;
   }
 }
