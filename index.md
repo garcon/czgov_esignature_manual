@@ -8,4 +8,6 @@ toc:
     - /evropska-znacka-duvery.html
     - /elektronicky-podpis.html
     - /jak-funguje-podpis.html
+    - /elektronicka-pecet.html
+    - /slovnik-pojmu.html
 ---
