@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Jak na elektronické podpisy
-permalink: /
+permalink: ./
 toc: 
   title: Jak na <strong>elektronické podpisy</strong>
   items:

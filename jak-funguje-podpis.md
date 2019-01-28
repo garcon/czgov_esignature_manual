@@ -1,7 +1,7 @@
 ---
 title: Jak fungují elektronické podpisy?
 short: Jak funguje podpis
-permalink: /jak-funguje-podpis
+permalink: ./jak-funguje-podpis
 layout: page
 ---
 
