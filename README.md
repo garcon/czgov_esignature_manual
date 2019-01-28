@@ -1,3 +1,14 @@
+---
+---
+
+# README
+
+## Jak na tento web
+
+Tento web je psaný v textových dokumentech s formátováním [markdown](#markdown). Soubory ukládejte buď přímo do kořenového adresáře nebo vytvořte složky a podsloužky. Obrázky, multimedia a další případné soubory patří do složky [/assets](/assets) Webové stránky generuje [Jekyll](https://jekyllrb.com/) a hostované jsou jako [GitHub Pages](#welcome-to-github-pages). Šablony webu jsou postaveny na [Design systému GOV.cz](https://designsystem.gov.cz).
+
+Při poskytování zpětné vazby a přispívání ke zlepšení obsahu nebo zdrojového kódu se prosím řiďte [pravidly chování](/CODE_OF_CONDUCT.md).
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/garcon/experiments/edit/master/README.md) to maintain and preview the content for your website in Markdown files.

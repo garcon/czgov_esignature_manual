@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "cs" }}" class="pvs-theme home-layout js-no">
+	<head>
+
+		{%- include head.html -%}
+
+	</head>
+	<body>
+		<div class="body__wrapper body__wrapper--hp">
+			<div class="body__wrapper-in">
+
+				{%- include header.html -%}
+
+				{%- assign toc = page.toc -%}
+				{%- include toc.html -%}
+
+				{%- include footer.html -%}
+
+			</div>
+			
+			{% if site.environment == "development" %}
+   			{% include viewport-debug.html %}
+			{% endif %}
+
+		</div>
+		<!-- JS -->
+		<script src="/assets/js/front.min.js"></script>
+	</body>
+</html>

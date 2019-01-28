@@ -1,8 +1,45 @@
-theme: jekyll-theme-leap-day
+title: Elektronický podpis ve státní správě
+tagline: Jak na elektronické podpisy
+author: CzechRepublic
+email: posta@mvcr.cz
+description: >
+  Tento web vznikl jako návod pro použití elektronického podpisu orgány státní správy.
+
+credentials: >
+  Cover Photo by Heidi Kaden Lopyreva on Unsplash (https://unsplash.com/photos/pvAu0JV3Z3M).
+
+# theme: empty-jekyll-theme
+remote_theme: garcon/empty-jekyll-theme
 markdown: kramdown
-dictionary:
-  elektronicky-podpis:
-    term: elektronický podpis
-    def: |
-      Lorem Ipsum 
-      Dolor Sit Amet
+date_format: "%-d. %-m. %Y"
+
+environment: production
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+# generate social links in footer
+social_links:
+  twitter: vnitro
+  rss: rss
+  # dribbble: jekyll
+  # facebook: jekyll
+  # flickr:   jekyll
+  # github:  CzechRepublic
+  # instagram: jekyll
+  # linkedin: jekyll
+  # pinterest: jekyll
+  # youtube: jekyll
+  # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+  # youtube_channel_name: CloudCannon
+  # telegram: jekyll
+  # googleplus: +jekyll
+  # microdotblog: jekyll
+
+  # Mastodon instances
+  # mastodon:
+  # - username: jekyll
+  #   instance: example.com
+  # - username: jekyll2
+  #   instance: example.com

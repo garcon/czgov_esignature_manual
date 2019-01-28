@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "cs" }}" class="pvs-theme page-layout js-no">
+	<head>
+
+		{%- include head.html -%}
+
+	</head>
+	<body>
+		<div class="body__wrapper">
+			<div class="body__wrapper-in">
+				
+				{%- include header.html -%}
+
+				<div class="content">
+					<div class="container">
+						<div class="content__inner py-0 py-lg-2">
+							<div class="row">
+								<div class="col-12 col-lg-3 pl-0 pr-0">
+									<div class="guide guide--no-right-radius mt-0 show-from-desktop">
+										<div class="navigation">
+										{% assign indexes = site.pages %}
+										{% for index in indexes %}
+											{% if index.url == '/' %}
+											{% assign toc = index.toc %}
+											<div class="guide__back-step">
+												<a href="/" class="guide__link-back">{{ toc.title }}</a>
+											</div>
+											<ul class="nav nav--vertical">
+											{% for item in toc.items %}
+												{% assign links = site.pages | where: 'url', item %}
+												{% for link in links %}
+												<li class="nav__item"><a href="{{ link.url }}" class="nav__link {% if page.url == item %}active{% endif %}">{{ link.short }}</a></li>
+												{% endfor %}
+											{% endfor %}
+											</ul>
+											{% endif %}
+										{% endfor %}
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-lg-9">
+									<div class="content__background--white">
+										<div class="row">
+											<div class="col-12 hidden-tablet">
+												<nav class="breadcrumbs mb-2" aria-label="breadcrumb">
+													<ol class="breadcrumb">
+														<li class="breadcrumb__item"><a href="/" class="breadcrumb__link">Úvod</a></li>
+														<li class="breadcrumb__item breadcrumb__item--active" aria-current="page"><span class="breadcrumb__link">{{ page.short }}</span></li>
+													</ol>
+												</nav>
+											</div>
+											<div class="col-12">
+
+												{{ content }}
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				{%- include footer.html -%}
+
+			</div>
+						
+			{% if site.environment == "development" %}
+   			{% include viewport-debug.html %}
+			{% endif %}
+
+		</div>
+		<!-- JS -->
+		<script src="/assets/js/front.js"></script>
+	</body>
+</html>
+

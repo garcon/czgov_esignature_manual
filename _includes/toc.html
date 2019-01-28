@@ -1,0 +1,58 @@
+{%- if toc -%}
+				<div class="container">
+					<div class="guide guide--hp">
+						<div class="guide__inner">
+							<div class="row">
+								<div class="col-12 col-lg-3">
+									<div>
+										<h2 class="guide__title">{{ toc.title }}</h2>
+									</div>
+								</div>
+								<div class="col-12 col-lg-9">
+									<div class="row boxes boxes--light boxes--eq">
+									{% for item in toc.items %}
+									{% assign links = site.pages | where: 'url', item %}
+										{% for link in links %}
+										<div class="col-12 col-sm-6 col-lg-4 box">
+											<div class="box__inner">
+												<h3 class="box__title"><a href="{{ link.url }}" class="inverse not-visited">{{ link.title }}</a></h3>
+												<a href="{{ link.url }}" class="inverse more dark">{{ link.short }}</a>
+											</div>
+										</div>
+										{% endfor %}
+									{% endfor %}
+
+									{% comment %}
+									<!-- 
+										Tahle část je tu pro dorovnání počtu boxů do násobku 3. 
+										Na malých displejích by to mělo být do násobku 2.
+										Na úplně malých displejích jsou prázdné boxy schované.
+									-->
+									{% endcomment %}
+									{% assign items = toc.items | size %}
+									{% assign rest = items | modulo: 6 %}
+									{% if rest != 0 %}
+									{% assign fillgap = 6 | minus: rest %}
+									{% if fillgap > 1 %}
+										{% assign no_tablet = 'show-from-desktop' %}
+									{% else %}
+										{% assign no_tablet = '' %}
+									{% endif %}
+									{% for fill in (1..fillgap) %}
+										<div class="col-12 col-sm-6 col-lg-4 box hidden-mobile {{ no_tablet }}">
+											<div class="box__inner">
+											</div>
+										</div>									
+									{% endfor %}
+									{% endif %}
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 col-lg-3">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+{%- endif -%}
