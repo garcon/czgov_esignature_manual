@@ -1,7 +1,6 @@
 ---
 title: Není elektronický podpis jako elektronický podpis
 short: Elektronický podpis
-permalink: ./elektronicky-podpis
 layout: page
 ---
 

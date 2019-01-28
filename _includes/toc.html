@@ -11,7 +11,10 @@
 								<div class="col-12 col-lg-9">
 									<div class="row boxes boxes--light boxes--eq">
 									{% for item in toc.items %}
-									{% assign links = site.pages | where: 'url', item %}
+									{% for p in site.pages %}
+											link {{ p.url }}, 
+									{% endfor %}
+									{% assign links = site.pages | where: 'url', item %}									
 										{% for link in links %}
 										<div class="col-12 col-sm-6 col-lg-4 box">
 											<div class="box__inner">

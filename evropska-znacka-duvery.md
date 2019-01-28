@@ -1,7 +1,6 @@
 ---
 title: Kvalifikovaný statut a evropská značka důvěry
 short: Evropská značka důvěry
-permalink: ./evropska-znacka-duvery
 layout: page
 ---
 
