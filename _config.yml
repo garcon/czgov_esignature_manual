@@ -11,6 +11,7 @@ credentials: >
 # theme: empty-jekyll-theme
 remote_theme: garcon/empty-jekyll-theme
 markdown: kramdown
+include: ['_pages']
 date_format: "%-d. %-m. %Y"
 
 environment: production
