@@ -11,6 +11,7 @@ credentials: >
 # theme: empty-jekyll-theme
 remote_theme: garcon/empty-jekyll-theme
 markdown: kramdown
+baseurl: /czgov_esignature_manual
 include: ['_pages']
 date_format: "%-d. %-m. %Y"
 
