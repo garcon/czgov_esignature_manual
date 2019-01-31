@@ -22,7 +22,7 @@ zákon č. 499/2004 Sb. o archivnictví a spisové službě
 
 Pro účely tohoto zákona se rozumí
 
-_……._
+---
 
 _e)_ dokumentem každá písemná, obrazová, zvuková nebo jiná zaznamenaná informace, ať již v podobě analogové či digitální, která byla vytvořena původcem nebo byla původci doručena,
 
